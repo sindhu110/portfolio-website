@@ -49,10 +49,11 @@ section {
   align-items: center;
   justify-content: center;
   padding: 50px;
+  text-align: center;
  
 }
 .home-content {
-  text-align: center;
+  
   color: black;
 }
 .home-content h1 {
