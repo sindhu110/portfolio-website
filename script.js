@@ -1,18 +1,6 @@
-const text = "Sindhu Madaala";
-let index = 0;
-
-function typeEffect() {
-    if (index < text.length) {
-        document.getElementById("Sindhu Madaala").innerHTML += text.charAt(index);
-        index++;
-        setTimeout(typeEffect, 150);
-    }
-}
-typeEffect();
-
-// Smooth Scrolling
-document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-    anchor.addEventListener("click", function (e) {
+// Smooth Scrolling for Navigation Links
+document.querySelectorAll('nav ul li a').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
         e.preventDefault();
         document.querySelector(this.getAttribute("href")).scrollIntoView({
             behavior: "smooth"
@@ -20,7 +8,20 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     });
 });
 
-// Dark Mode Toggle
-document.getElementById("theme-toggle").addEventListener("click", () => {
-    document.body.classList.toggle("dark-mode");
-});
+// Fade-in Animation on Scroll
+const sections = document.querySelectorAll("section");
+
+const fadeInOnScroll = () => {
+    sections.forEach(section => {
+        const sectionTop = section.getBoundingClientRect().top;
+        const windowHeight = window.innerHeight;
+
+        if (sectionTop < windowHeight * 0.85) {
+            section.classList.add("fade-in");
+        }
+    });
+};
+
+// Run on scroll
+window.addEventListener("scroll", fadeInOnScroll);
+fadeInOnScroll(); // Run on load
