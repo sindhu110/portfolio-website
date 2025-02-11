@@ -1,13 +1,8 @@
-document.addEventListener("DOMContentLoaded", () => {
-    document.body.classList.add("fade-in");
-    document.querySelectorAll("nav a").forEach(link => {
-        link.addEventListener("click", (event) => {
-            event.preventDefault();
-            const href = event.target.getAttribute("href");
-            document.body.classList.add("fade-out");
-            setTimeout(() => {
-                window.location.href = href;
-            }, 500);
-        });
+document.querySelectorAll('nav ul li a').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        const targetId = this.getAttribute('href').substring(1);
+        const targetSection = document.getElementById(targetId);
+        targetSection.scrollIntoView({ behavior: 'smooth' });
     });
 });

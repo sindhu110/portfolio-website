@@ -3,26 +3,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home - Portfolio</title>
+    <title>Portfolio - Sindhu</title>
     <link rel="stylesheet" href="styles.css">
     <script defer src="script.js"></script>
 </head>
-<body class="fade-in">
+<body>
 
+    <!-- 🔹 Navigation Bar -->
     <nav>
         <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="projects.html">Projects</a></li>
-            <li><a href="contact.html">Contact</a></li>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
     </nav>
 
-    <section class="home">
-        <div class="home-box">
-            <h1>Sindhu</h1>
-            <p>Web Developer | Creating Interactive Experiences</p>
+    <!-- 🔹 Home Section -->
+    <section id="home" class="home">
+        <div class="content-box">
+            <h1>Sindhu Madaala</h1>
+            <p>Web Developer | Learner</p>
         </div>
+    </section>
+
+    <!-- 🔹 About Section -->
+    <section id="about" class="about">
+        <div class="content-box">
+            <h2>About Me</h2>
+            <p>I’m a passionate web developer with expertise in HTML, CSS, and JavaScript. I love creating interactive, responsive websites that provide a great user experience.</p>
+        </div>
+    </section>
+
+    <!-- 🔹 Projects Section -->
+    <section id="projects" class="projects">
+        <div class="content-box">
+            <h2>Projects</h2>
+            <div class="project-container">
+                <div class="project-box">
+                    <h3>Landing Page</h3>
+                    <p>A modern landing page created for my portfolio.</p>
+                    <a href="https://sindhu110.github.io/landing-page/" target="_blank">View Project</a>
+                </div>
+                <div class="project-box">
+                    <h3>Quote Generator</h3>
+                    <p>A simple JavaScript app that generates random quotes.</p>
+                    <a href="https://sindhu110.github.io/quote-generator/" target="_blank">View Project</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 🔹 Contact Section -->
+    <section id="contact" class="contact">
+        <a href="https://github.com/sindhu110" target="_blank">
+            <img src="assets/icons/github.png" alt="GitHub">
+        </a>
+        <a href="mailto:madaalasindhu@gmail.com">
+            <img src="assets/icons/gmail.png" alt="Gmail">
+        </a>
     </section>
 
 </body>
