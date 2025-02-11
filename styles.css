@@ -45,38 +45,30 @@ section {
 /* 🔹 Home Page */
 .home {
   background: url('assets/images/home-bg.jpg') no-repeat center/cover;
-  height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 50px;
   text-align: center;
-  width: 100%;
- 
+  height: 100vh;
 }
 .home-content {
-  color:black;
-  background : rgba(255,255,255,0.5);
-  padding: 20px;
-  border-radius: 10px;
   color: black;
 }
 .home-content h1 {
   font-size: 3rem;
   font-weight: bold;
-
 }
 .home-content p {
   font-size: 1.2rem;
   margin-top: 10px;
 }
+
 /* 🔹 About Page */
 .about {
   background: url('assets/images/about-bg.jpg') no-repeat center/cover;
-  display:flex;
+  display: flex;
   justify-content: center;
   align-items: center;
-  height:100vh;
 }
 .content-box {
   background: rgba(0, 0, 0, 0.7);
@@ -84,7 +76,7 @@ section {
   border-radius: 10px;
   color: white;
   max-width: 600px;
-  text-align: center;
+  margin: auto;
 }
 
 /* 🔹 Projects Page */
@@ -121,33 +113,29 @@ section {
   background: #0056b3;
 }
 
-/* 🔹 Contact Section (Fixed & Now with Bottom Border) */
+/* 🔹 Contact Section (Fixed & Now Compact) */
 .contact {
   background: #222;
-  padding: 10px 0;
-  
+  padding: 10px 0; /* Reduced height */
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 20px;
-  border-bottom: 4px solid white;
+  border-top: 4px solid white;
 }
-contact a {
+.contact img {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+  margin-right: 8px;
+}
+.contact a {
   display: flex;
   align-items: center;
   text-decoration: none;
   color: white;
   font-size: 18px;
   font-weight: bold;
-}
-.contact img {
-  width: 40px; /* Adjust icon size */
-    height: 40px;
-    object-fit: contain; /* Prevent distortion */
-    margin-right: 8px;
-}
-.contact img:hover {
-  transform: scale(1.1);
 }
 
 /* 🔹 Responsive Fixes */
