@@ -45,15 +45,20 @@ section {
 /* 🔹 Home Page */
 .home {
   background: url('assets/images/home-bg.jpg') no-repeat center/cover;
+  height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 50px;
   text-align: center;
+  width: 100%;
  
 }
 .home-content {
-  
+  color:black;
+  background : rgba(255,255,255,0.5);
+  padding: 20px;
+  border-radius: 10px;
   color: black;
 }
 .home-content h1 {
@@ -119,15 +124,27 @@ section {
 /* 🔹 Contact Section (Fixed & Now with Bottom Border) */
 .contact {
   background: #222;
+  padding: 10px 0;
   
   display: flex;
   justify-content: center;
+  align-items: center;
   gap: 20px;
   border-bottom: 4px solid white;
 }
+contact a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+}
 .contact img {
-  width: 50px;
-  transition: 0.3s;
+  width: 40px; /* Adjust icon size */
+    height: 40px;
+    object-fit: contain; /* Prevent distortion */
+    margin-right: 8px;
 }
 .contact img:hover {
   transform: scale(1.1);
