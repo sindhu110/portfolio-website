@@ -51,10 +51,7 @@ section {
   padding: 50px;
   position: relative;
 }
-.home-content {
-  text-align: right;
-  color: black;
-}
+
 .name {
   position: absolute;
   top: 20px;
