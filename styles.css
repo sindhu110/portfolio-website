@@ -47,23 +47,23 @@ section {
   background: url('assets/images/home-bg.jpg') no-repeat center/cover;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   padding: 50px;
   position: relative;
 }
 .home-content {
-  text-align: right;
+  text-align: center;
   color: black;
 }
-.name {
-  position: absolute;
-  top: 10px;
-  right: 30px;
-  font-size: 2rem;
+.home-content h1 {
+  font-size: 3rem;
   font-weight: bold;
-  color: black;
-}
 
+}
+.home-content p {
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
 /* 🔹 About Page */
 .about {
   background: url('assets/images/about-bg.jpg') no-repeat center/cover;
@@ -118,7 +118,7 @@ section {
 /* 🔹 Contact Section (Fixed & Now with Bottom Border) */
 .contact {
   background: #222;
-  padding: 15px 0;
+  padding: 10px 0;
   display: flex;
   justify-content: center;
   gap: 20px;
