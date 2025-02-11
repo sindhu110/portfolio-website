@@ -4,7 +4,7 @@ body {
   margin: 0;
   padding: 0;
   text-align: center;
-  scroll-behavior: smooth; /* Enables smooth scrolling */
+  scroll-behavior: smooth;
 }
 
 /* 🔹 Navigation Bar */
@@ -39,22 +39,28 @@ section {
   max-width: 1000px;
   margin: auto;
   padding: 80px 20px;
+  height: 100vh; /* Ensuring all sections have equal height */
 }
 
 /* 🔹 Home Page */
 .home {
   background: url('assets/images/home-bg.jpg') no-repeat center/cover;
-  height: 100vh;
   display: flex;
   align-items: center;
+  justify-content: space-between;
+  padding: 50px;
 }
 .home-content {
   text-align: left;
-  position: absolute;
-  top: 20%;
-  left: 10%;
-  font-weight: bold;
   color: white;
+}
+.name {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  font-size: 2rem;
+  font-weight: bold;
+  color: black;
 }
 
 /* 🔹 About Page */
@@ -70,7 +76,7 @@ section {
   margin: auto;
 }
 
-/* 🔹 Projects Page (Fixed Layout) */
+/* 🔹 Projects Page */
 .projects {
   display: flex;
   align-items: center;
@@ -104,13 +110,14 @@ section {
   background: #0056b3;
 }
 
-/* 🔹 Contact Section (Now a Small Row) */
+/* 🔹 Contact Section (Fixed & Now with Bottom Border) */
 .contact {
   background: #222;
   padding: 30px 0;
   display: flex;
   justify-content: center;
   gap: 20px;
+  border-bottom: 4px solid white;
 }
 .contact img {
   width: 50px;
