@@ -14,7 +14,7 @@ Welcome to my personal portfolio website! This project showcases my work as a we
 - JavaScript  
 
 ## 🔗 Live Demo  
-Check out the live website: [Your GitHub Pages Link](https://sindhu110.github.io/portfolio-website/)  
+Check out the live website: [https://sindhu110.github.io/portfolio-website/] 
 
 ## 📂 How to Run the Project  
 1. Clone the repository:  
