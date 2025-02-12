@@ -1,10 +1,17 @@
-/* 🔹 General Styling */
-body {
-  font-family: Arial, sans-serif;
+* {
   margin: 0;
   padding: 0;
-  text-align: center;
+  box-sizing: border-box;
   scroll-behavior: smooth;
+}
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #111;
+  color: white;
+  overflow-y: auto; /* Ensures scrolling is enabled */
+  -webkit-overflow-scrolling: touch; /* Improves mobile scrolling */
+  touch-action: manipulation; /* Fixes touch responsiveness *
 }
 /* 🔹 Navigation Bar */
 nav {
