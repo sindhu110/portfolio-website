@@ -118,10 +118,15 @@ section {
 /* 🔹 Contact Section (Fixed & Now Compact) */
 .contact-grid {
   background: #222;
+  padding: 10px 30px;
   display: grid;
   grid-template-columns: repeat(2,auto);
   justify-content: center;
   align-items: center;
+  gap: 30px;
+  width: fit-content;
+  margin: 20px auto;
+  border-radius: 8px;
 
   
  }
