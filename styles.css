@@ -84,7 +84,7 @@ section {
   display: flex;
   align-items: center;
   gap: 20px;
-  background: url('assets/images/project-image1.jpg') no-repeat center/cover; /* Add background image here */
+  background: url('assets/images/project-image2.jpg') no-repeat center/cover; /* Add background image here */
   padding: 50px 0; /* Adjust padding to make it visually appealing */
 }
 .project-image {
