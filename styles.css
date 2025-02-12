@@ -124,14 +124,13 @@ section {
   align-items: center;
   gap: 20px;
   border-top: 4px solid white;
-  width: fit-content;
-  margin:40px auto;
+  width: max-content;
+  margin:20px auto;
   border-radius: 10px;
  }
 .contact img {
   width: 30px;
   height: 30px;
-  object-fit: contain;
   margin-right: 5px;
 }
 .contact a {
@@ -141,6 +140,7 @@ section {
   color: white;
   font-size: 16px;
   font-weight: bold;
+  gap: 5px;
 }
 
 /* 🔹 Responsive Fixes */
