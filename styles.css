@@ -124,7 +124,8 @@ section {
   justify-content: center;
   align-items: center;
   gap: 30px;
-  width: fit-content;
+  width: 90%;
+  max-width: 1000px;
   margin: 20px auto;
   border-radius: 8px;
 
