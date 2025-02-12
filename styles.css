@@ -97,7 +97,7 @@ section {
 }
 .projects-content {
   width: 55%;
-  
+
 }
 .project-box {
   background: white;
@@ -160,5 +160,9 @@ section {
   }
   .projects-content {
       width: 100%;
+  }
+  html, body {
+    scroll-behavior: smooth;
+    overflow-x: hidden; /* Prevents horizontal scrolling issues */
   }
 }
