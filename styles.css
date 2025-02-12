@@ -88,24 +88,22 @@ section {
 /* 🔹 Projects Page */
 .projects {
   display: flex;
-  flex-wrap: wrap; /* Allows proper resizing */
   align-items: center;
   background: url('assets/images/project-image2.jpg') no-repeat center/cover;
   justify-content: center;
-  gap: 20px;
-  padding: 60px 20px;
+  gap: 30px;
   box-sizing: border-box;
 }
 .project-image {
-  width: 100%;
-  max-width: 450px;
-  height: 300px;
+  width: 40%;
+  max-width: 400px;
   background: url('assets/images/project-bg.jpg') no-repeat center/cover;
   border-radius: 10px;
+  flex-shrink: 0;
 }
 .projects-content {
-  width: 100%;
-  max-width: 500px;
+  width: 55%;
+  
 }
 .project-box {
   background: white;
@@ -130,20 +128,20 @@ section {
 .contact-grid {
   background: #222;
   padding: 20px;
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns:repeat(2,auto);
   justify-content: center;
   align-items: center;
-  gap: 20px;
+  gap: 30px;
   width: 90%;
-  max-width: 800px;
-  margin: 40px auto;
+  max-width: 1000px;
+  margin: 20px auto;
   border-radius: 8px;
   box-sizing: border-box;
 }
 .contact img {
-  width: 35px;
-  height: 35px;
+  width: 3Opx;
+  height: 30px;
   object-fit: contain;
 }
 .contact a {
@@ -151,9 +149,9 @@ section {
   align-items: center;
   text-decoration: none;
   color: white;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: bold;
-  gap: 10px;
+  gap: 5px;
 }
 
 /* 🔹 Responsive Fixes */
