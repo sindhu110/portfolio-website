@@ -3,11 +3,6 @@ document.querySelectorAll('nav ul li a').forEach(anchor => {
       e.preventDefault();
       const targetId = this.getAttribute('href').substring(1);
       const targetSection = document.getElementById(targetId);
-      if (targetSection) {
-        window.scrollTo({
-          top: targetSection.offsetTop - 50, // Adjust this value if needed
-          behavior: 'smooth'
-        });
-      }
-    });
+      targetSection.scrollIntoView({ behavior: 'smooth'});
+      });
   });
