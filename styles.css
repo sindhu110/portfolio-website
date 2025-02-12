@@ -85,8 +85,7 @@ section {
   align-items: center;
   background: url('assets/images/project-image2.jpg') no-repeat center/cover; /* Add background image here */
   justify-content: center;
-  margin-bottom: 0;
-  padding-bottom: 0;
+  
 }
 .project-image {
   width: 40%;
@@ -124,9 +123,6 @@ section {
   grid-template-columns: repeat(2,auto);
   justify-content: center;
   align-items: center;
-  gap: 30px;
-  width: 100%;
-  margin:0 ;
   border-radius: 8px;
   
  }
