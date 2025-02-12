@@ -155,40 +155,60 @@ section {
 }
 
 /* 🔹 Responsive Fixes */
-@media screen and (max-width: 768px) {
-  /* Fix Navbar */
-  nav ul {
-    flex-direction: column;
-    gap: 10px;
+@media screen and (max-width: 1024px) {
+  section {
+    padding: 60px 20px;
   }
-
-  /* Fix Projects Layout */
+  .home-content h1 {
+    font-size: 2.5rem;
+  }
+  .home-content p {
+    font-size: 1rem;
+  }
   .projects {
     flex-direction: column;
+    align-items: center;
   }
   .project-image {
-    width: 90%;
-    height: auto;
+    width: 100%;
+    height: 250px;
   }
   .projects-content {
     width: 100%;
+    text-align: center;
   }
+}
 
-  /* Contact Section Adjustments */
-  .contact-grid {
+@media screen and (max-width: 768px) {
+  nav ul {
     flex-direction: column;
     text-align: center;
-    padding: 15px;
+    gap: 10px;
   }
-
-  /* Home Content */
-  .home-content {
+  .contact-grid {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+  .about {
+    padding: 40px 15px;
+  }
+  .content-box {
+    padding: 30px;
     max-width: 90%;
   }
+}
+
+@media screen and (max-width: 480px) {
   .home-content h1 {
     font-size: 2rem;
   }
   .home-content p {
-    font-size: 1rem;
+    font-size: 0.9rem;
+  }
+  .project-box {
+    padding: 15px;
+  }
+  .contact a {
+    font-size: 14px;
   }
 }
