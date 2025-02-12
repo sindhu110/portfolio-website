@@ -123,8 +123,8 @@ section {
   justify-content: center;
   align-items: center;
   gap: 30px;
-  width: fit-content;
-  margin:20px auto;
+  width: 100%;
+  margin:0 auto;
   border-radius: 8px;
   
  }
