@@ -5,7 +5,7 @@ body {
   padding: 0;
   text-align: center;
   scroll-behavior: smooth;
-  background: white;
+  background: black;
   overflow-x: hidden; /* Prevents horizontal scrolling */
 }
 
