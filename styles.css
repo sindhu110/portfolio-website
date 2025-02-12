@@ -6,11 +6,6 @@ body {
   text-align: center;
   scroll-behavior: smooth;
 }
-html, body {
-  scroll-behavior: smooth;
-  overflow-x: hidden; /* Prevents horizontal scrolling issues */
-}
-
 /* 🔹 Navigation Bar */
 nav {
   background: black;
@@ -165,8 +160,11 @@ section {
   .projects-content {
       width: 100%;
   }
-  html, body {
-    scroll-behavior: smooth;
-    overflow-x: hidden; /* Prevents horizontal scrolling issues */
+  body {
+    overflow-y:auto;
   }
+  section{
+    padding: 60px 15px;
+  }
+  
 }
