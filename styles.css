@@ -8,7 +8,6 @@ body {
   font-family: Arial, sans-serif;
   text-align: center;
   background-color: #111;
-  color: white;
   overflow-y: auto; /* Ensures scrolling is enabled */
   -webkit-overflow-scrolling: touch; /* Improves mobile scrolling */
   touch-action: manipulation; /* Fixes touch responsiveness *
