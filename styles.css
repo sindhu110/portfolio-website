@@ -87,22 +87,22 @@ section {
 /* 🔹 Projects Page */
 .projects {
   display: flex;
-  flex-wrap: wrap;
   align-items: center;
   background: url('assets/images/project-image2.jpg') no-repeat center/cover; /* Add background image here */
   justify-content: center;
-  gap: 20px;
+  gap: 30px;
   
 }
 .project-image {
-  width: 45%;
-  height: 350px;
+  width: 40%;
+  height: 400px;
   background: url('assets/images/project-bg.jpg') no-repeat center/cover;
   border-radius: 10px;
+  flex-shrink: 0;
   
 }
 .projects-content {
-  width: 50%;
+  width: 55%;
 
 }
 .project-box {
@@ -127,15 +127,15 @@ section {
 /* 🔹 Contact Section (Fixed & Now Compact) */
 .contact-grid {
   background: #222;
-  padding: 20px 30px;
+  padding: 10px 30px;
   display: grid;
   grid-template-columns: repeat(2,auto);
   justify-content: center;
   align-items: center;
-  gap: 20px;
+  gap: 30px;
   width: 90%;
-  max-width: 800px;
-  margin: 40px auto;
+  max-width: 1000px;
+  margin: 20px auto;
   border-radius: 8px;
 
   
