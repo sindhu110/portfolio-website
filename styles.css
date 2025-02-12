@@ -84,6 +84,8 @@ section {
   display: flex;
   align-items: center;
   gap: 20px;
+  background: url('assets/images/project-bg.jpg') no-repeat center/cover; /* Add background image here */
+  padding: 50px 0; /* Adjust padding to make it visually appealing */
 }
 .project-image {
   width: 40%;
