@@ -116,19 +116,18 @@ section {
 }
 
 /* 🔹 Contact Section (Fixed & Now Compact) */
-.contact {
+.contact-grid {
   background: #222;
-  padding: 10px 20px; /* Reduced height */
-  display: flex;
-  flex-direction: row;
+  padding: 10px 30px; /* Reduced height */
+  display: grid;
+  grid-template-columns: repeat(2,auto);
   justify-content: center;
   align-items: center;
-  gap: 20px;
-  border-top: 4px solid white;
-  width: max-content;
+  gap: 30px;
+  width: fit-content;
   margin:20px auto;
-  border-radius: 10px;
-  border-top: 4px solid white;
+  border-radius: 8px;
+  
  }
 .contact img {
   width: 30px;
