@@ -171,10 +171,12 @@ section {
   .projects-content {
       width: 100%;
   }
-  .contact-grid {
-    grid-template-column: 1fr;
-    text-align: center;
+body {
+  overflow-y: auto;
   }
+ section {
+  padding: 60px 15px;
+ } 
   
   
 }
