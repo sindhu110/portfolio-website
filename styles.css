@@ -120,6 +120,7 @@ section {
   background: #222;
   padding: 10px 20px; /* Reduced height */
   display: flex;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
   gap: 20px;
@@ -127,11 +128,12 @@ section {
   width: max-content;
   margin:20px auto;
   border-radius: 10px;
+  border-top: 4px solid white;
  }
 .contact img {
   width: 30px;
   height: 30px;
-  margin-right: 5px;
+  object-fit: contain;
 }
 .contact a {
   display: flex;
